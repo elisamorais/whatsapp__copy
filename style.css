@@ -1,0 +1,64 @@
+/*cores whatsapp:
+verde fundo topo: #00a884
+cinza fundo: #e3e2dd
+verde da linha: #25d369
+fundo grande conversa: #f8f8f8
+lista de conversas: #ffffff
+barra de busca: #ebf6f9
+barra usuario: #f1f2f6
+*/
+
+*{
+    margin:0;
+    padding: 0;
+  }
+
+body {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+html, body, #container-fundo {
+    width: 100%;
+    height: 100%;
+}
+
+#fundo-verde {
+    width: 100%;
+    height: 10%;
+    background: #00a884;
+}
+
+#fundo-cinza {
+    width: 100%;
+    height: 90%;
+    background: #e3e2dd;
+}
+
+#container-conversas {
+    width: 97%;
+    height: 93%;
+    background-color: #f8f8f8;
+    position: absolute;
+    display: flex;
+}
+
+#lista-conversas {
+    width: 30%;
+    height: 100%;
+    background-color: #ffffff;
+    position: relative;
+   
+}
+
+#barra-usuario {
+    width: 30%;
+    height: 15%;
+    background-color: #333;
+    flex-wrap: wrap;
+    align-items: baseline;
+    
+
+   }
